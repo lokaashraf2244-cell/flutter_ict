@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'homepage.dart';
+import 'loginscreen.dart';
+import 'customsocialbutton.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,7 +14,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: const homepage(),
+      home: const loginscreen(),
+
     );
   }
 }
