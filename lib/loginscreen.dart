@@ -17,7 +17,6 @@ class _loginscreenState extends State<loginscreen> {
     r'^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$',
   );
 
-  // Password Regex
   final RegExp passwordRegex = RegExp(
     r'^(?=.*[A-Z])(?=.*[a-z])(?=.*\d)(?=.*[!@#$%^&*(),.?":{}|<>]).{8,}$',
   );
@@ -112,7 +111,7 @@ class _loginscreenState extends State<loginscreen> {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
 
-                      // Name
+                
                       const Text(
                         'Name',
                         style: TextStyle(
@@ -137,7 +136,7 @@ class _loginscreenState extends State<loginscreen> {
 
                       const SizedBox(height: 18),
 
-                      // Email
+                
                       const Text(
                         'Email',
                         style: TextStyle(
